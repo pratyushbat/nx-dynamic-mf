@@ -2,7 +2,9 @@
   "name": "@nx-dynamic-mf/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:dashboard":"nx serve dashboard --open "
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.0.0",
@@ -32,6 +34,8 @@
     "@nx/eslint-plugin": "19.3.2",
     "@nx/jest": "19.3.2",
     "@nx/js": "19.3.2",
+    "@nx/web": "19.3.2",
+    "@nx/webpack": "19.3.2",
     "@nx/workspace": "19.3.2",
     "@schematics/angular": "~18.0.0",
     "@swc-node/register": "~1.9.1",
